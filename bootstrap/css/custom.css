@@ -1,0 +1,16 @@
+.page {
+    background-color: bisque;
+}
+
+.main-custom-color {
+  background-color: cadetblue;
+}
+
+.custom-row-color {
+    background-color: blueviolet;
+    color: burlywood;
+}
+
+.button-seach-custom {
+  width: 202px;
+}

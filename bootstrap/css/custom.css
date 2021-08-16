@@ -14,3 +14,30 @@
 .button-seach-custom {
   width: 202px;
 }
+
+.box {
+  height: 241px;
+  width: 100%;
+}
+
+.one {
+  background-color: green;
+  height: 502px;
+  width: 100%;
+}
+
+.two {
+  background-color: red;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: blue;
+}
+
+.col-6-custom {
+  margin-bottom: 20px;
+}

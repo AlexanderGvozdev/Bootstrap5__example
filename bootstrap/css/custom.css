@@ -6,6 +6,10 @@
   background-color: cadetblue;
 }
 
+.swiper {
+  width: 720px;
+}
+
 .custom-row-color {
     background-color: blueviolet;
     color: burlywood;

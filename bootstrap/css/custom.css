@@ -104,3 +104,33 @@
     height: 241px;
   }
 }
+
+video {
+  width: 700px;
+  height: 700px;
+}
+
+.swiper-button-wrapper {
+  display: flex;
+  position: absolute;
+  top: 36px;
+  left: 36px;
+}
+
+.swiper .swiper-button-next-custom,
+.swiper .swiper-button-prev-custom {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: #0C84C7;
+}
+
+.swiper .swiper-button-prev-custom {
+  margin-left: -20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+.swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after {
+  display: none;
+}

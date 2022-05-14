@@ -134,3 +134,68 @@ video {
 .swiper .swiper-button-prev::after {
   display: none;
 }
+
+.submenu-top {
+  background-color: transparent;
+  width: 296px;
+  position: relative;
+}
+
+.submenu-top::before {
+  position: absolute;
+  content: "";
+  border-top: 3px solid #1953A0;
+  top: -35px;
+  left: -7px;
+  width: 163px;
+  transform: rotate(-25deg);
+}
+
+.submenu-top::after {
+  position: absolute;
+  content: "";
+  border-top: 3px solid #1953A0;
+  top: -35px;
+  right: -7px;
+  width: 163px;
+  transform: rotate(25deg);
+}
+
+.submenu-bottom {
+  background-color: transparent;
+  width: 296px;
+  position: relative;
+}
+
+.submenu-bottom::before {
+  position: absolute;
+  content: "";
+  border-top: 3px solid #1953A0;
+  bottom: -35px;
+  left: -7px;
+  width: 163px;
+  transform: rotate(-155deg);
+}
+
+.submenu-bottom::after {
+  position: absolute;
+  content: "";
+  border-top: 3px solid #1953A0;
+  bottom: -35px;
+  right: -7px;
+  width: 163px;
+  transform: rotate(155deg);
+}
+
+.submenu {
+  background-color: transparent;
+  width: 296px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submenu-content {
+  min-height: 100px;
+  border-left: 3px solid #1953A0;
+  border-right: 3px solid #1953A0;
+}
